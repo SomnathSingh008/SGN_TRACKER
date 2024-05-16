@@ -1,0 +1,60 @@
+.Data-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.Data-form-container h2 {
+    margin-bottom: 20px;
+}
+
+.Data-form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Data-form-container form div {
+    margin-bottom: 15px;
+}
+
+.Data-form-container form label {
+    font-weight: bold;
+}
+
+.Data-form-container form input[type="text"],
+.Data-form-container form input[type="number"],
+.Data-form-container form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Data-form-container form input[type="text"]:focus,
+.Data-form-container form input[type="number"]:focus,
+.Data-form-container form input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.Data-form-container form span {
+    color: red;
+    font-size: 12px;
+}
+
+.Data-form-container form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Data-form-container form button:hover {
+    background-color: #0056b3;
+}
